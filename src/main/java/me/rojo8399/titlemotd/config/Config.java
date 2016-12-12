@@ -14,7 +14,7 @@ public class Config implements Configurable {
 	private static Config config = new Config();
 
 	private Config() {
-		;
+		
 	}
 
 	public static Config getConfig() {

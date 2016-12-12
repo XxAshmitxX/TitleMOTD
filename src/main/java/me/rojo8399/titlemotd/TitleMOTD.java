@@ -94,6 +94,7 @@ public class TitleMOTD {
 
 	private Text format(String s, Player p) {
 		return TextSerializers.FORMATTING_CODE.deserialize(s
+						// Will be own plugin soon!
 						.replace("{player_name}", p.getName())
 						.replace("{player_displayname}", p.getDisplayNameData().displayName().toString())
 						.replace("{online}", String.valueOf(Sponge.getServer().getOnlinePlayers().size()))
